@@ -1,2 +1,24 @@
-<!-- Molloy Cybersec1 -->
- <h2>Under Construction</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Identity Platform Quickstart</div>
+    <div id="message">Loading...</div>
+    <script src="https://www.gstatic.com/firebasejs/8.0/firebase.js"></script>
+    <script>
+        var config = {
+            apiKey: "AIzaSyAAiWCy2yQQ-ld58s3LAl_7BeSafZzUxjA",
+            authDomain: "authentication-434317.firebaseapp.com",
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script>
+        import { GoogleAuthProvider } from "firebase/auth";
+        const provider = new GoogleAuthProvider();
+    </script>
+</body>
+</html>
