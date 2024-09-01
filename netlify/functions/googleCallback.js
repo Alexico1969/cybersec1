@@ -39,8 +39,8 @@ async function getTokens(code) {
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams({
             code: code,
-            client_id: '834819648302-s25sqavuo5e427e9ihg0dke788g6fn30.apps.googleusercontent.com',
-            client_secret: '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',
+            client_id: client_secret_,
+            client_secret: client_secret_,
             redirect_uri: 'https://molloycybersec1.netlify.app/.netlify/functions/googleCallback',
             grant_type: 'authorization_code',
         }),
