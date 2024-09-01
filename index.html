@@ -8,6 +8,22 @@
 <body>
     <div>Identity Platform Quickstart</div>
     <div id="message">Loading...</div>
+
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+    <div id="g_id_onload"
+    data-client_id="834819648302-s25sqavuo5e427e9ihg0dke788g6fn30.apps.googleusercontent.com"
+    data-login_uri="https://www.yourwebsite.com/auth/google/callback"
+    data-auto_prompt="false">
+    </div>
+
+    <div class="g_id_signin"
+        data-type="standard">
+    </div>
+
+
+    <!-- old scripts
+
     <script src="https://www.gstatic.com/firebasejs/8.0/firebase.js"></script>
     <script>
         var config = {
@@ -20,5 +36,6 @@
         import { GoogleAuthProvider } from "firebase/auth";
         const provider = new GoogleAuthProvider();
     </script>
+    -->
 </body>
 </html>
